@@ -3,42 +3,42 @@ import { CiHeart } from "react-icons/ci";
 import { IoCartOutline } from "react-icons/io5";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross1 } from "react-icons/rx";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
+
+  const isHome = location.pathname === "/";
+  const getNavLinkClass = ({ isActive }) => {
+    if (isActive) {
+      return isHome
+        ? "border-b-2 font-bold"
+        : "border-b-2 font-bold text-[#9538E2]";
+    }
+    return "font-medium";
+  };
 
   const navLinks = (
     <>
-      <NavLink
-        to="/"
-        className={({ isActive }) =>
-          isActive ? "border-b-2 font-bold" : "font-medium"
-        }
-      >
+      <NavLink to="/" className={getNavLinkClass}>
         Home
       </NavLink>
-      <NavLink
-        to="/statistics"
-        className={({ isActive }) =>
-          isActive ? "border-b-2 font-bold" : "font-medium"
-        }
-      >
+      <NavLink to="/statistics" className={getNavLinkClass}>
         Statistics
       </NavLink>
-      <NavLink
-        to="/dashboard"
-        className={({ isActive }) =>
-          isActive ? "border-b-2 font-bold" : "font-medium"
-        }
-      >
+      <NavLink to="/dashboard" className={getNavLinkClass}>
         Dashboard
       </NavLink>
     </>
   );
 
   return (
-    <nav className="text-white px-4 md:px-32 py-6 bg-[#9538E2] rounded-t-2xl flex justify-between items-center mt-10 relative">
+    <nav
+      className={`${
+        isHome ? "bg-[#9538E2] text-white" : "bg-transparent text-black"
+      } px-4 md:px-32 py-6 rounded-t-2xl flex justify-between items-center mt-10 relative z-20 transition-all duration-300`}
+    >
       <Link to="/" className="text-xl font-bold">
         Gadget Heaven
       </Link>

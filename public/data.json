@@ -1,0 +1,156 @@
+[
+  {
+    "id": "LAP1234",
+    "title": "Dell XPS 15",
+    "image": "https://images.unsplash.com/photo-1622286346003-c5c7e63b1088?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Laptops",
+    "price": 1499.99,
+    "description": "High-performance laptop with Intel Core i7 and 16GB RAM.",
+    "specification": "intel core i7, 16gb ram, 512gb ssd, 15.6 inch 4k",
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "id": "PHN3421",
+    "title": "Samsung Galaxy S23",
+    "image": "https://images.unsplash.com/photo-1706832608032-61cced969d6a?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Phones",
+    "price": 799.99,
+    "description": "Powerful Android smartphone with stunning display.",
+    "specification": "snapdragon 8 gen 2, 8gb ram, 128gb storage",
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "id": "ACC8723",
+    "title": "Logitech MX Master 3",
+    "image": "https://images.unsplash.com/photo-1722682810978-98d5a0412546?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Accessories",
+    "price": 99.99,
+    "description": "Advanced wireless mouse for productivity.",
+    "specification": "bluetooth, usb-c, ergonomic design",
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "id": "MAC3344",
+    "title": "MacBook Pro 14-inch M3",
+    "image": "https://images.unsplash.com/photo-1629131726692-1accd0c53ce0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "MacBook",
+    "price": 1999.99,
+    "description": "Apple M3 chip with long battery life and Liquid Retina display.",
+    "specification": "apple m3, 16gb ram, 512gb ssd",
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "id": "WCH1923",
+    "title": "Apple Watch Series 9",
+    "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Smart Watches",
+    "price": 399.99,
+    "description": "Advanced smartwatch with health and fitness tracking.",
+    "specification": "heart rate monitor, ecg, gps",
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "id": "LAP2211",
+    "title": "HP Spectre x360",
+    "image": "https://images.unsplash.com/photo-1589561084283-930aa7b1ce50?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Laptops",
+    "price": 1299.99,
+    "description": "Convertible laptop with sleek design and long battery life.",
+    "specification": "intel i7, 16gb ram, 1tb ssd",
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "id": "LAP4455",
+    "title": "Lenovo ThinkPad X1 Carbon",
+    "image": "https://images.unsplash.com/photo-1588620353536-ded12e518f45?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Laptops",
+    "price": 1399.99,
+    "description": "Lightweight business laptop with strong performance.",
+    "specification": "intel i7, 16gb ram, 512gb ssd",
+    "availability": false,
+    "rating": 4.4
+  },
+  {
+    "id": "IPH2025",
+    "title": "iPhone 15 Pro Max",
+    "image": "https://images.unsplash.com/photo-1695048133021-be2def43f3b2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Iphone",
+    "price": 1199.99,
+    "description": "Flagship iPhone with A17 chip and titanium body.",
+    "specification": "a17 pro, 6.7 inch oled, 256gb",
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "id": "ACC6732",
+    "title": "Anker PowerCore Portable Charger",
+    "image": "https://images.unsplash.com/photo-1632156752398-2b2cb4e6c907?q=80&w=1026&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Accessories",
+    "price": 59.99,
+    "description": "High capacity power bank with fast charging.",
+    "specification": "20000mah, usb-c, poweriq 3.0",
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "id": "LAP7788",
+    "title": "ASUS ROG Zephyrus G14",
+    "image": "https://images.unsplash.com/photo-1630794180018-433d915c34ac?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Laptops",
+    "price": 1599.99,
+    "description": "Gaming laptop with Ryzen 9 and RTX 4060.",
+    "specification": "ryzen 9, 16gb ram, 1tb ssd, rtx 4060",
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "id": "PHN8888",
+    "title": "Google Pixel 8 Pro",
+    "image": "https://images.unsplash.com/photo-1724341039339-036842055cae?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Phones",
+    "price": 899.99,
+    "description": "Pure Android with top-tier camera and AI features.",
+    "specification": "tensor g3, 12gb ram, 128gb storage",
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "id": "LAP3349",
+    "title": "Acer Swift X",
+    "image": "https://images.unsplash.com/photo-1522198428577-adf2d374b05b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Laptops",
+    "price": 1099.99,
+    "description": "Slim and powerful ultrabook with nvidia graphics.",
+    "specification": "intel i7, 16gb ram, 512gb ssd, rtx 3050",
+    "availability": false,
+    "rating": 4.3
+  },
+  {
+    "id": "WCH3391",
+    "title": "Samsung Galaxy Watch 6",
+    "image": "https://images.unsplash.com/photo-1722156163505-7d3d5d5dd85a?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Smart Watches",
+    "price": 349.99,
+    "description": "Smartwatch with health tracking and lte support.",
+    "specification": "amoled, lte, health sensors",
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "id": "LAP5566",
+    "title": "MSI Creator Z16",
+    "image": "https://images.unsplash.com/photo-1617294864710-bb97f05457f4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Laptops",
+    "price": 1799.99,
+    "description": "Content creator laptop with rtx 4060 and 120hz display.",
+    "specification": "intel i9, 32gb ram, 1tb ssd, rtx 4060",
+    "availability": true,
+    "rating": 4.5
+  }
+]

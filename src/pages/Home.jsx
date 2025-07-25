@@ -1,9 +1,11 @@
+import Gadgets from "../components/Gadgets";
 import Hero from "../components/Hero";
 
 const Home = () => {
   return (
     <div>
-        <Hero />
+      <Hero />
+      <Gadgets />
     </div>
   );
 };

@@ -2,9 +2,11 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import MainLayouts from "./Layouts/MainLayouts.jsx";
+import Home from "./pages/Home.jsx";
+import Statistics from "./pages/Statistics.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./pages/Home.jsx";
 
 let router = createBrowserRouter([
   {
@@ -14,6 +16,14 @@ let router = createBrowserRouter([
       {
         index: true,
         element: <Home />,
+      },
+      {
+        path: "/statistics",
+        element: <Statistics />,
+      },
+      {
+        path: "/dashboard",
+        element: <Dashboard />,
       },
     ],
   },
